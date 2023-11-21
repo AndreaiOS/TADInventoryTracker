@@ -2,13 +2,13 @@
 //  TADInventoryTrackerTests.swift
 //  TADInventoryTrackerTests
 //
-//  Created by Andrea Murru on 17/11/2023.
+//  Created by Andrea Murru on 21/11/2023.
 //
 
 import XCTest
 @testable import TADInventoryTracker
 
-class TADInventoryTrackerTests: XCTestCase {
+final class TADInventoryTrackerTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
