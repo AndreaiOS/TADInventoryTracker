@@ -7,56 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A57311302B0F6A79004E40ED /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A573112F2B0F6A79004E40ED /* InventoryItem.swift */; };
+		A57311312B0F6A79004E40ED /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A573112F2B0F6A79004E40ED /* InventoryItem.swift */; };
+		A57311332B0F6BAC004E40ED /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57311322B0F6BAC004E40ED /* InventoryListVM.swift */; };
+		A57311342B0F6BAC004E40ED /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57311322B0F6BAC004E40ED /* InventoryListVM.swift */; };
+		A58836BB2B0F66170090D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836BA2B0F66170090D96B /* AppDelegate.swift */; };
+		A58836BC2B0F66170090D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836BA2B0F66170090D96B /* AppDelegate.swift */; };
 		A5FB04ED2B0CDB3500F6686B /* TADInventoryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */; };
 		A5FB04EF2B0CDB3500F6686B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB04EE2B0CDB3500F6686B /* ContentView.swift */; };
 		A5FB04F12B0CDB3600F6686B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB04F02B0CDB3600F6686B /* Assets.xcassets */; };
 		A5FB04F42B0CDB3600F6686B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB04F32B0CDB3600F6686B /* Preview Assets.xcassets */; };
-		A5FB04FE2B0CDB3600F6686B /* TADInventoryTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB04FD2B0CDB3600F6686B /* TADInventoryTrackerTests.swift */; };
-		A5FB05082B0CDB3600F6686B /* TADInventoryTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB05072B0CDB3600F6686B /* TADInventoryTrackerUITests.swift */; };
-		A5FB050A2B0CDB3600F6686B /* TADInventoryTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB05092B0CDB3600F6686B /* TADInventoryTrackerUITestsLaunchTests.swift */; };
 		A5FB051F2B0CDB9100F6686B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB051E2B0CDB9100F6686B /* RealityKitContent */; };
 		A5FB05212B0CDB9100F6686B /* TADInventoryTrackerVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB05202B0CDB9100F6686B /* TADInventoryTrackerVisionApp.swift */; };
 		A5FB05232B0CDB9100F6686B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB05222B0CDB9100F6686B /* ContentView.swift */; };
 		A5FB05252B0CDB9300F6686B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB05242B0CDB9300F6686B /* Assets.xcassets */; };
 		A5FB05282B0CDB9300F6686B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB05272B0CDB9300F6686B /* Preview Assets.xcassets */; };
-		A5FB05332B0CDB9300F6686B /* TADInventoryTrackerVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB05322B0CDB9300F6686B /* TADInventoryTrackerVisionTests.swift */; };
 		A5FB053B2B0CDCE500F6686B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5FB053A2B0CDCE500F6686B /* GoogleService-Info.plist */; };
-		A5FB053E2B0CDEBC00F6686B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB053D2B0CDEBC00F6686B /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A5FB05412B0CDFF500F6686B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB05402B0CDFF500F6686B /* FirebaseFirestore */; };
+		A5FB05432B0CDFF500F6686B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB05422B0CDFF500F6686B /* FirebaseFirestoreSwift */; };
+		A5FB05452B0CDFF500F6686B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB05442B0CDFF500F6686B /* FirebaseStorage */; };
+		A5FB05472B0CE00500F6686B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB05462B0CE00500F6686B /* FirebaseFirestore */; };
+		A5FB05492B0CE00500F6686B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB05482B0CE00500F6686B /* FirebaseFirestoreSwift */; };
+		A5FB054B2B0CE00500F6686B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB054A2B0CE00500F6686B /* FirebaseStorage */; };
+		A5FB054D2B0CE07300F6686B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5FB054C2B0CE07300F6686B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A5FB04FA2B0CDB3600F6686B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A5FB04E12B0CDB3500F6686B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5FB04E82B0CDB3500F6686B;
-			remoteInfo = TADInventoryTracker;
-		};
-		A5FB05042B0CDB3600F6686B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A5FB04E12B0CDB3500F6686B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5FB04E82B0CDB3500F6686B;
-			remoteInfo = TADInventoryTracker;
-		};
-		A5FB052F2B0CDB9300F6686B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A5FB04E12B0CDB3500F6686B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A5FB05192B0CDB9100F6686B;
-			remoteInfo = TADInventoryTrackerVision;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		A573112F2B0F6A79004E40ED /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		A57311322B0F6BAC004E40ED /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
+		A57DFF712B0F64E300E0E560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A58836BA2B0F66170090D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FB04E92B0CDB3500F6686B /* TADInventoryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TADInventoryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADInventoryTrackerApp.swift; sourceTree = "<group>"; };
 		A5FB04EE2B0CDB3500F6686B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5FB04F02B0CDB3600F6686B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5FB04F32B0CDB3600F6686B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A5FB04F92B0CDB3600F6686B /* TADInventoryTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TADInventoryTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FB04FD2B0CDB3600F6686B /* TADInventoryTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADInventoryTrackerTests.swift; sourceTree = "<group>"; };
-		A5FB05032B0CDB3600F6686B /* TADInventoryTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TADInventoryTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FB05072B0CDB3600F6686B /* TADInventoryTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADInventoryTrackerUITests.swift; sourceTree = "<group>"; };
 		A5FB05092B0CDB3600F6686B /* TADInventoryTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADInventoryTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A5FB051A2B0CDB9100F6686B /* TADInventoryTrackerVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TADInventoryTrackerVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,9 +52,9 @@
 		A5FB05242B0CDB9300F6686B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5FB05272B0CDB9300F6686B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5FB05292B0CDB9300F6686B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5FB052E2B0CDB9300F6686B /* TADInventoryTrackerVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TADInventoryTrackerVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FB05322B0CDB9300F6686B /* TADInventoryTrackerVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADInventoryTrackerVisionTests.swift; sourceTree = "<group>"; };
 		A5FB053A2B0CDCE500F6686B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5FB054C2B0CE07300F6686B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,21 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FB053E2B0CDEBC00F6686B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB04F62B0CDB3600F6686B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB05002B0CDB3600F6686B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A5FB05412B0CDFF500F6686B /* FirebaseFirestore in Frameworks */,
+				A5FB05432B0CDFF500F6686B /* FirebaseFirestoreSwift in Frameworks */,
+				A5FB05452B0CDFF500F6686B /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,22 +73,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5FB051F2B0CDB9100F6686B /* RealityKitContent in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB052B2B0CDB9300F6686B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A5FB054B2B0CE00500F6686B /* FirebaseStorage in Frameworks */,
+				A5FB05472B0CE00500F6686B /* FirebaseFirestore in Frameworks */,
+				A5FB05492B0CE00500F6686B /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A573112E2B0F6A63004E40ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A573112F2B0F6A79004E40ED /* InventoryItem.swift */,
+				A57311322B0F6BAC004E40ED /* InventoryListVM.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A58836B92B0F65F30090D96B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A573112E2B0F6A63004E40ED /* Models */,
+				A58836BA2B0F66170090D96B /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		A5FB04E02B0CDB3500F6686B = {
 			isa = PBXGroup;
 			children = (
+				A58836B92B0F65F30090D96B /* Shared */,
 				A5FB04EB2B0CDB3500F6686B /* TADInventoryTracker */,
 				A5FB04FC2B0CDB3600F6686B /* TADInventoryTrackerTests */,
 				A5FB05062B0CDB3600F6686B /* TADInventoryTrackerUITests */,
@@ -122,6 +111,7 @@
 				A5FB051C2B0CDB9100F6686B /* Packages */,
 				A5FB05312B0CDB9300F6686B /* TADInventoryTrackerVisionTests */,
 				A5FB04EA2B0CDB3500F6686B /* Products */,
+				A5FB053F2B0CDFF500F6686B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,10 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				A5FB04E92B0CDB3500F6686B /* TADInventoryTracker.app */,
-				A5FB04F92B0CDB3600F6686B /* TADInventoryTrackerTests.xctest */,
-				A5FB05032B0CDB3600F6686B /* TADInventoryTrackerUITests.xctest */,
 				A5FB051A2B0CDB9100F6686B /* TADInventoryTrackerVision.app */,
-				A5FB052E2B0CDB9300F6686B /* TADInventoryTrackerVisionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +127,7 @@
 		A5FB04EB2B0CDB3500F6686B /* TADInventoryTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A57DFF712B0F64E300E0E560 /* Info.plist */,
 				A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */,
 				A5FB053A2B0CDCE500F6686B /* GoogleService-Info.plist */,
 				A5FB04EE2B0CDB3500F6686B /* ContentView.swift */,
@@ -179,6 +167,7 @@
 			children = (
 				A5FB05202B0CDB9100F6686B /* TADInventoryTrackerVisionApp.swift */,
 				A5FB05222B0CDB9100F6686B /* ContentView.swift */,
+				A5FB054C2B0CE07300F6686B /* GoogleService-Info.plist */,
 				A5FB05242B0CDB9300F6686B /* Assets.xcassets */,
 				A5FB05292B0CDB9300F6686B /* Info.plist */,
 				A5FB05262B0CDB9300F6686B /* Preview Content */,
@@ -210,6 +199,13 @@
 			path = TADInventoryTrackerVisionTests;
 			sourceTree = "<group>";
 		};
+		A5FB053F2B0CDFF500F6686B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,47 +223,13 @@
 			);
 			name = TADInventoryTracker;
 			packageProductDependencies = (
-				A5FB053D2B0CDEBC00F6686B /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A5FB05402B0CDFF500F6686B /* FirebaseFirestore */,
+				A5FB05422B0CDFF500F6686B /* FirebaseFirestoreSwift */,
+				A5FB05442B0CDFF500F6686B /* FirebaseStorage */,
 			);
 			productName = TADInventoryTracker;
 			productReference = A5FB04E92B0CDB3500F6686B /* TADInventoryTracker.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A5FB04F82B0CDB3600F6686B /* TADInventoryTrackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5FB05102B0CDB3600F6686B /* Build configuration list for PBXNativeTarget "TADInventoryTrackerTests" */;
-			buildPhases = (
-				A5FB04F52B0CDB3600F6686B /* Sources */,
-				A5FB04F62B0CDB3600F6686B /* Frameworks */,
-				A5FB04F72B0CDB3600F6686B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5FB04FB2B0CDB3600F6686B /* PBXTargetDependency */,
-			);
-			name = TADInventoryTrackerTests;
-			productName = TADInventoryTrackerTests;
-			productReference = A5FB04F92B0CDB3600F6686B /* TADInventoryTrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A5FB05022B0CDB3600F6686B /* TADInventoryTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5FB05132B0CDB3600F6686B /* Build configuration list for PBXNativeTarget "TADInventoryTrackerUITests" */;
-			buildPhases = (
-				A5FB04FF2B0CDB3600F6686B /* Sources */,
-				A5FB05002B0CDB3600F6686B /* Frameworks */,
-				A5FB05012B0CDB3600F6686B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5FB05052B0CDB3600F6686B /* PBXTargetDependency */,
-			);
-			name = TADInventoryTrackerUITests;
-			productName = TADInventoryTrackerUITests;
-			productReference = A5FB05032B0CDB3600F6686B /* TADInventoryTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		A5FB05192B0CDB9100F6686B /* TADInventoryTrackerVision */ = {
 			isa = PBXNativeTarget;
@@ -284,28 +246,13 @@
 			name = TADInventoryTrackerVision;
 			packageProductDependencies = (
 				A5FB051E2B0CDB9100F6686B /* RealityKitContent */,
+				A5FB05462B0CE00500F6686B /* FirebaseFirestore */,
+				A5FB05482B0CE00500F6686B /* FirebaseFirestoreSwift */,
+				A5FB054A2B0CE00500F6686B /* FirebaseStorage */,
 			);
 			productName = TADInventoryTrackerVision;
 			productReference = A5FB051A2B0CDB9100F6686B /* TADInventoryTrackerVision.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A5FB052D2B0CDB9300F6686B /* TADInventoryTrackerVisionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5FB05372B0CDB9300F6686B /* Build configuration list for PBXNativeTarget "TADInventoryTrackerVisionTests" */;
-			buildPhases = (
-				A5FB052A2B0CDB9300F6686B /* Sources */,
-				A5FB052B2B0CDB9300F6686B /* Frameworks */,
-				A5FB052C2B0CDB9300F6686B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5FB05302B0CDB9300F6686B /* PBXTargetDependency */,
-			);
-			name = TADInventoryTrackerVisionTests;
-			productName = TADInventoryTrackerVisionTests;
-			productReference = A5FB052E2B0CDB9300F6686B /* TADInventoryTrackerVisionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -320,20 +267,8 @@
 					A5FB04E82B0CDB3500F6686B = {
 						CreatedOnToolsVersion = 15.1;
 					};
-					A5FB04F82B0CDB3600F6686B = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = A5FB04E82B0CDB3500F6686B;
-					};
-					A5FB05022B0CDB3600F6686B = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = A5FB04E82B0CDB3500F6686B;
-					};
 					A5FB05192B0CDB9100F6686B = {
 						CreatedOnToolsVersion = 15.1;
-					};
-					A5FB052D2B0CDB9300F6686B = {
-						CreatedOnToolsVersion = 15.1;
-						TestTargetID = A5FB05192B0CDB9100F6686B;
 					};
 				};
 			};
@@ -354,10 +289,7 @@
 			projectRoot = "";
 			targets = (
 				A5FB04E82B0CDB3500F6686B /* TADInventoryTracker */,
-				A5FB04F82B0CDB3600F6686B /* TADInventoryTrackerTests */,
-				A5FB05022B0CDB3600F6686B /* TADInventoryTrackerUITests */,
 				A5FB05192B0CDB9100F6686B /* TADInventoryTrackerVision */,
-				A5FB052D2B0CDB9300F6686B /* TADInventoryTrackerVisionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -373,33 +305,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5FB04F72B0CDB3600F6686B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB05012B0CDB3600F6686B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A5FB05182B0CDB9100F6686B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5FB05282B0CDB9300F6686B /* Preview Assets.xcassets in Resources */,
 				A5FB05252B0CDB9300F6686B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB052C2B0CDB9300F6686B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A5FB054D2B0CE07300F6686B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,25 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58836BB2B0F66170090D96B /* AppDelegate.swift in Sources */,
 				A5FB04EF2B0CDB3500F6686B /* ContentView.swift in Sources */,
 				A5FB04ED2B0CDB3500F6686B /* TADInventoryTrackerApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB04F52B0CDB3600F6686B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5FB04FE2B0CDB3600F6686B /* TADInventoryTrackerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB04FF2B0CDB3600F6686B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5FB050A2B0CDB3600F6686B /* TADInventoryTrackerUITestsLaunchTests.swift in Sources */,
-				A5FB05082B0CDB3600F6686B /* TADInventoryTrackerUITests.swift in Sources */,
+				A57311332B0F6BAC004E40ED /* InventoryListVM.swift in Sources */,
+				A57311302B0F6A79004E40ED /* InventoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,38 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58836BC2B0F66170090D96B /* AppDelegate.swift in Sources */,
 				A5FB05232B0CDB9100F6686B /* ContentView.swift in Sources */,
 				A5FB05212B0CDB9100F6686B /* TADInventoryTrackerVisionApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5FB052A2B0CDB9300F6686B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5FB05332B0CDB9300F6686B /* TADInventoryTrackerVisionTests.swift in Sources */,
+				A57311342B0F6BAC004E40ED /* InventoryListVM.swift in Sources */,
+				A57311312B0F6A79004E40ED /* InventoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A5FB04FB2B0CDB3600F6686B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5FB04E82B0CDB3500F6686B /* TADInventoryTracker */;
-			targetProxy = A5FB04FA2B0CDB3600F6686B /* PBXContainerItemProxy */;
-		};
-		A5FB05052B0CDB3600F6686B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5FB04E82B0CDB3500F6686B /* TADInventoryTracker */;
-			targetProxy = A5FB05042B0CDB3600F6686B /* PBXContainerItemProxy */;
-		};
-		A5FB05302B0CDB9300F6686B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A5FB05192B0CDB9100F6686B /* TADInventoryTrackerVision */;
-			targetProxy = A5FB052F2B0CDB9300F6686B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A5FB050B2B0CDB3600F6686B /* Debug */ = {
@@ -599,6 +474,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TADInventoryTracker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TADInventoryTracker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -627,6 +504,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TADInventoryTracker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TADInventoryTracker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -642,78 +521,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A5FB05112B0CDB3600F6686B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = theappsdoctor.TADInventoryTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TADInventoryTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TADInventoryTracker";
-			};
-			name = Debug;
-		};
-		A5FB05122B0CDB3600F6686B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = theappsdoctor.TADInventoryTrackerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TADInventoryTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TADInventoryTracker";
-			};
-			name = Release;
-		};
-		A5FB05142B0CDB3600F6686B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = theappsdoctor.TADInventoryTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TADInventoryTracker;
-			};
-			name = Debug;
-		};
-		A5FB05152B0CDB3600F6686B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = theappsdoctor.TADInventoryTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TADInventoryTracker;
 			};
 			name = Release;
 		};
@@ -771,48 +578,6 @@
 			};
 			name = Release;
 		};
-		A5FB05382B0CDB9300F6686B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = theappsdoctor.TADInventoryTrackerVisionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TADInventoryTrackerVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TADInventoryTrackerVision";
-				XROS_DEPLOYMENT_TARGET = 1.0;
-			};
-			name = Debug;
-		};
-		A5FB05392B0CDB9300F6686B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = theappsdoctor.TADInventoryTrackerVisionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TADInventoryTrackerVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TADInventoryTrackerVision";
-				XROS_DEPLOYMENT_TARGET = 1.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -834,38 +599,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5FB05102B0CDB3600F6686B /* Build configuration list for PBXNativeTarget "TADInventoryTrackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5FB05112B0CDB3600F6686B /* Debug */,
-				A5FB05122B0CDB3600F6686B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5FB05132B0CDB3600F6686B /* Build configuration list for PBXNativeTarget "TADInventoryTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5FB05142B0CDB3600F6686B /* Debug */,
-				A5FB05152B0CDB3600F6686B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A5FB05342B0CDB9300F6686B /* Build configuration list for PBXNativeTarget "TADInventoryTrackerVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5FB05352B0CDB9300F6686B /* Debug */,
 				A5FB05362B0CDB9300F6686B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5FB05372B0CDB9300F6686B /* Build configuration list for PBXNativeTarget "TADInventoryTrackerVisionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5FB05382B0CDB9300F6686B /* Debug */,
-				A5FB05392B0CDB9300F6686B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -888,10 +626,35 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
-		A5FB053D2B0CDEBC00F6686B /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+		A5FB05402B0CDFF500F6686B /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A5FB053C2B0CDEBC00F6686B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsWithoutAdIdSupport;
+			productName = FirebaseFirestore;
+		};
+		A5FB05422B0CDFF500F6686B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5FB053C2B0CDEBC00F6686B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A5FB05442B0CDFF500F6686B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5FB053C2B0CDEBC00F6686B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A5FB05462B0CE00500F6686B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5FB053C2B0CDEBC00F6686B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A5FB05482B0CE00500F6686B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5FB053C2B0CDEBC00F6686B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A5FB054A2B0CE00500F6686B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5FB053C2B0CDEBC00F6686B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

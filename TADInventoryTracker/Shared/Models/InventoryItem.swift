@@ -1,0 +1,30 @@
+//
+//  InventoryItem.swift
+//  TADInventoryTracker
+//
+//  Created by Andrea Murru on 23/11/2023.
+//
+
+import Foundation
+import FirebaseFirestore
+
+struct InventoryItem: Identifiable, Codable, Equatable {
+    var id = UUID().uuidString
+    @ServerTimestamp var createdAt: Date?
+    @ServerTimestamp var updatedAt: Date?
+    
+    var name: String
+    var quantity: Int
+    
+    var usdzLink: String?
+    var usdzUrl: URL? {
+        guard let usdzLink  else { return nil }
+        return URL(string: usdzLink)
+    }
+    
+    var thumbnailLink: String?
+    var thumbnailURL: URL? {
+        guard let thumbnailLink else { return nil }
+        return URL(string: thumbnailLink)
+    }
+}
