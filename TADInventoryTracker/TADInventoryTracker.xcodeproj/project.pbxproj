@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A566A3FD2B10A805009E0503 /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566A3FC2B10A805009E0503 /* InventoryListView.swift */; };
+		A566A4002B10AC68009E0503 /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566A3FF2B10AC68009E0503 /* InventoryFormView.swift */; };
+		A566A4032B10ACCB009E0503 /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566A4022B10ACCB009E0503 /* InventoryFormVM.swift */; };
 		A57311302B0F6A79004E40ED /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A573112F2B0F6A79004E40ED /* InventoryItem.swift */; };
 		A57311312B0F6A79004E40ED /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A573112F2B0F6A79004E40ED /* InventoryItem.swift */; };
 		A57311332B0F6BAC004E40ED /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57311322B0F6BAC004E40ED /* InventoryListVM.swift */; };
 		A57311342B0F6BAC004E40ED /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57311322B0F6BAC004E40ED /* InventoryListVM.swift */; };
+		A57311362B0F6DFD004E40ED /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57311352B0F6DFD004E40ED /* String+Extension.swift */; };
+		A57311372B0F6DFD004E40ED /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57311352B0F6DFD004E40ED /* String+Extension.swift */; };
 		A58836BB2B0F66170090D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836BA2B0F66170090D96B /* AppDelegate.swift */; };
 		A58836BC2B0F66170090D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836BA2B0F66170090D96B /* AppDelegate.swift */; };
 		A5FB04ED2B0CDB3500F6686B /* TADInventoryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */; };
@@ -33,8 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A566A3FC2B10A805009E0503 /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		A566A3FF2B10AC68009E0503 /* InventoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormView.swift; sourceTree = "<group>"; };
+		A566A4022B10ACCB009E0503 /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
 		A573112F2B0F6A79004E40ED /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
 		A57311322B0F6BAC004E40ED /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
+		A57311352B0F6DFD004E40ED /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		A57DFF712B0F64E300E0E560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A58836BA2B0F66170090D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FB04E92B0CDB3500F6686B /* TADInventoryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TADInventoryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,20 +91,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A566A3FE2B10AB26009E0503 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A566A3FC2B10A805009E0503 /* InventoryListView.swift */,
+				A566A3FF2B10AC68009E0503 /* InventoryFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A566A4012B10AC93009E0503 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				A566A4022B10ACCB009E0503 /* InventoryFormVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
 		A573112E2B0F6A63004E40ED /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				A573112F2B0F6A79004E40ED /* InventoryItem.swift */,
-				A57311322B0F6BAC004E40ED /* InventoryListVM.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A57311382B0F6E02004E40ED /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				A57311322B0F6BAC004E40ED /* InventoryListVM.swift */,
+			);
+			path = Observables;
 			sourceTree = "<group>";
 		};
 		A58836B92B0F65F30090D96B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A57311382B0F6E02004E40ED /* Observables */,
 				A573112E2B0F6A63004E40ED /* Models */,
 				A58836BA2B0F66170090D96B /* AppDelegate.swift */,
+				A57311352B0F6DFD004E40ED /* String+Extension.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -127,6 +162,8 @@
 		A5FB04EB2B0CDB3500F6686B /* TADInventoryTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A566A4012B10AC93009E0503 /* Observables */,
+				A566A3FE2B10AB26009E0503 /* Views */,
 				A57DFF712B0F64E300E0E560 /* Info.plist */,
 				A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */,
 				A5FB053A2B0CDCE500F6686B /* GoogleService-Info.plist */,
@@ -325,8 +362,12 @@
 				A58836BB2B0F66170090D96B /* AppDelegate.swift in Sources */,
 				A5FB04EF2B0CDB3500F6686B /* ContentView.swift in Sources */,
 				A5FB04ED2B0CDB3500F6686B /* TADInventoryTrackerApp.swift in Sources */,
+				A566A4032B10ACCB009E0503 /* InventoryFormVM.swift in Sources */,
 				A57311332B0F6BAC004E40ED /* InventoryListVM.swift in Sources */,
+				A57311362B0F6DFD004E40ED /* String+Extension.swift in Sources */,
 				A57311302B0F6A79004E40ED /* InventoryItem.swift in Sources */,
+				A566A3FD2B10A805009E0503 /* InventoryListView.swift in Sources */,
+				A566A4002B10AC68009E0503 /* InventoryFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +379,7 @@
 				A5FB05232B0CDB9100F6686B /* ContentView.swift in Sources */,
 				A5FB05212B0CDB9100F6686B /* TADInventoryTrackerVisionApp.swift in Sources */,
 				A57311342B0F6BAC004E40ED /* InventoryListVM.swift in Sources */,
+				A57311372B0F6DFD004E40ED /* String+Extension.swift in Sources */,
 				A57311312B0F6A79004E40ED /* InventoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
