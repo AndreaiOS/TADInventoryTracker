@@ -14,7 +14,9 @@ struct TADInventoryTrackerApp: App {
 
   var body: some Scene {
     WindowGroup {
-        ContentView()
+        NavigationStack {
+            InventoryListView()
+        }
     }
   }
 }

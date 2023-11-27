@@ -19,7 +19,6 @@
 		A58836BB2B0F66170090D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836BA2B0F66170090D96B /* AppDelegate.swift */; };
 		A58836BC2B0F66170090D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58836BA2B0F66170090D96B /* AppDelegate.swift */; };
 		A5FB04ED2B0CDB3500F6686B /* TADInventoryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */; };
-		A5FB04EF2B0CDB3500F6686B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB04EE2B0CDB3500F6686B /* ContentView.swift */; };
 		A5FB04F12B0CDB3600F6686B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB04F02B0CDB3600F6686B /* Assets.xcassets */; };
 		A5FB04F42B0CDB3600F6686B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FB04F32B0CDB3600F6686B /* Preview Assets.xcassets */; };
 		A5FB051F2B0CDB9100F6686B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = A5FB051E2B0CDB9100F6686B /* RealityKitContent */; };
@@ -48,7 +47,6 @@
 		A58836BA2B0F66170090D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FB04E92B0CDB3500F6686B /* TADInventoryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TADInventoryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADInventoryTrackerApp.swift; sourceTree = "<group>"; };
-		A5FB04EE2B0CDB3500F6686B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5FB04F02B0CDB3600F6686B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5FB04F32B0CDB3600F6686B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5FB04FD2B0CDB3600F6686B /* TADInventoryTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TADInventoryTrackerTests.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 				A57DFF712B0F64E300E0E560 /* Info.plist */,
 				A5FB04EC2B0CDB3500F6686B /* TADInventoryTrackerApp.swift */,
 				A5FB053A2B0CDCE500F6686B /* GoogleService-Info.plist */,
-				A5FB04EE2B0CDB3500F6686B /* ContentView.swift */,
 				A5FB04F02B0CDB3600F6686B /* Assets.xcassets */,
 				A5FB04F22B0CDB3600F6686B /* Preview Content */,
 			);
@@ -360,7 +357,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A58836BB2B0F66170090D96B /* AppDelegate.swift in Sources */,
-				A5FB04EF2B0CDB3500F6686B /* ContentView.swift in Sources */,
 				A5FB04ED2B0CDB3500F6686B /* TADInventoryTrackerApp.swift in Sources */,
 				A566A4032B10ACCB009E0503 /* InventoryFormVM.swift in Sources */,
 				A57311332B0F6BAC004E40ED /* InventoryListVM.swift in Sources */,

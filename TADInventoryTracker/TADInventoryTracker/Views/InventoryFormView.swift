@@ -42,7 +42,6 @@ struct InventoryFormView: View {
         }, set: { _ in
             vm.error = nil
         }), error: "An error has occured", actions: { _ in
-            
         }, message: { _ in
             Text(vm.error ?? "")
         })
